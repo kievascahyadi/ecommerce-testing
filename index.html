@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="swiper-bundle.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@Latest/css/boxicons.min.css" rel="stylesheet">
+    <title>AegiBou</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav_logo">
+                <i class="bx bxs-shopping-bags nav_logo-icon"></i>aegibou
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link active-link">Home</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="shop.html" class="nav_link">Shop</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="cart.html" class="nav_link">Cart</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="contact.html" class="nav_link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav_close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+
+            <div class="nav_btn">
+                <div class="login_toggle" id="login-button">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="nav_shop" id="cart-shop">
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- cart -->
+    <div class="cart" id="cart">
+        <i class="bx bx-x cart-close" id="cart-close"></i>
+
+        <h2 class="cart_title-center">My Cart</h2>
+        <div class="cart_container">
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="img/product-1.png" class="cart_img" alt="picture">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Aegi Bundle Set C</h3>
+                    <span class="cart_price">IDR 295.000</span>
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+                            
+                            <span class="cart_amount-number">
+                                1
+                            </span>
+                            
+                            <span class="cart_amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart_amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="img/product-1.png" class="cart_img" alt="picture">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Aegi Bundle Set C</h3>
+                    <span class="cart_price">IDR 295.000</span>
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+                            
+                            <span class="cart_amount-number">
+                                1
+                            </span>
+                            
+                            <span class="cart_amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart_amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="img/product-1.png" class="cart_img" alt="picture">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Aegi Bundle Set C</h3>
+                    <span class="cart_price">IDR 295.000</span>
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+                            
+                            <span class="cart_amount-number">
+                                1
+                            </span>
+                            
+                            <span class="cart_amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart_amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+
+            <div class="cart_prices">
+                <span class="cart_prices-item">3 item</span>
+                <span class="cart_price-total">IDR 885.000</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login -->
+    <div class="login" id="login">
+        <i class="bx bx-x login-close" id="login-close"></i>
+        <h2 class="login_title-center">LogIn</h2>
+
+        <form action="" class="login_form grid">
+            <div class="login_content">
+                <label for="" class="login_label">Email</label>
+                <input type="email" class="login_input">
+            </div>
+
+            <div class="login_content">
+                <label for="" class="login_label">Password</label>
+                <input type="password" class="login_input">
+            </div>
+
+            <div>
+                <a href="#" class="button">SignIn</a>
+            </div>
+
+            <div>
+                <p class="signup">Not a member? <a href="registration.html">SignUp here</a></p>
+            </div>
+        </form>
+
+    </div>
+    <!-- main -->
+    <main class="main">
+        <section class="home container">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+
+                    <section class="swiper-slide">
+                        <div class="home_content grid">
+                            <div class="home_group">
+                                <img src="img/product-3.jpg" alt="text" class="home_img">
+                                <div class="home_indicator">
+
+                                </div>
+                                <div class="home_details-img">
+                                    <h4 class="home_details-title">Hope - Wooden Card</h4>
+                                    <span class="home_details-subtitle">Baby Photo Property</span>
+                                </div>
+                            </div>
+
+                            <div class="home_data">
+                                <h3 class="home_subtitle">
+                                    #1 Trending Item
+                                </h3>
+                                <h1 class="home_title">
+                                    100% natural wood
+                                </h1>
+                                <p class="home_description">
+                                    Simple & aesthetic props for maternity/baby photoshoot                                </p>
+
+                                <div class="home_buttons">
+                                    <a href="details.html" class="button">Buy Now</a>
+                                    <a href="details.html" class="button--link button--flex">View Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="swiper-slide">
+                        <div class="home_content grid">
+                            <div class="home_group">
+                                <img src="img/product-2.jpg" alt="text" class="home_img">
+                                <div class="home_indicator">
+
+                                </div>
+                                <div class="home_details-img">
+                                    <h4 class="home_details-title">Wooden Building Block</h4>
+                                    <span class="home_details-subtitle">Twinkle and Bloom</span>
+                                </div>
+                            </div>
+
+                            <div class="home_data">
+                                <h3 class="home_subtitle">
+                                    #2 Trending Item
+                                </h3>
+                                <h1 class="home_title">
+                                    Various Designs
+                                </h1>
+                                <p class="home_description">
+                                    wooden building block are designed and produced for the entertainment and amusement of babies.
+                                </p>
+
+                                <div class="home_buttons">
+                                    <a href="details.html" class="button">Buy Now</a>
+                                    <a href="details.html" class="button--link button--flex">View Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="swiper-slide">
+                        <div class="home_content grid">
+                            <div class="home_group">
+                                <img src="img/product-5.jpg" alt="text" class="home_img">
+                                <div class="home_indicator">
+
+                                </div>
+                                <div class="home_details-img">
+                                    <h4 class="home_details-title">Wooden Pacifier Holder</h4>
+                                    <span class="home_details-subtitle">Original by Aegibou</span>
+                                </div>
+                            </div>
+
+                            <div class="home_data">
+                                <h3 class="home_subtitle">
+                                    #3 Trending Item
+                                </h3>
+                                <h1 class="home_title">
+                                    30% OFF
+                                </h1>
+                                <p class="home_description">
+                                    Safe and healthy food grade material, chewable and grinds teeth
+                                </p>
+
+                                <div class="home_buttons">
+                                    <a href="details.html" class="button">Buy Now</a>
+                                    <a href="details.html" class="button--link button--flex">View Details <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="discount section section-2">
+            <div class="discount-container container grid">
+                <img src="img/product-5.jpg" alt="text" id="discount-img" class="discount-img">
+
+                <div class="discount-data">
+                    <h2 class="discount-title">30% Off<br>For our Top Items</h2>
+                    <a href="#" class="button">Go to item</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="new section">
+            <h2 class="section_title">New Arrivals</h2>
+
+            <div class="new-container container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="new-content swiper-slide">
+                            <div class="new-tag">New</div>
+                            <img src="img/product-6.jpg" alt="text" class="new-img" id="new-img">
+                            <h3 class="new-title">Aegi Headband</h3>
+                            <span class="new-subtitle">Hand-knitted Cotton</span>
+                
+                            <div class="new-prices">
+                                <span class="new-price">IDR 25.000</span>
+                                <span class="new-discount">IDR 45.000</span>
+                            </div>
+                
+                            <a href="details.html" class="button new_button">
+                                <i class="bx bx-cart-alt new-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="new-content swiper-slide">
+                            <div class="new-tag">New</div>
+                            <img src="img/product-7.jpg" alt="text" class="new-img" id="new-img">
+                            <h3 class="new-title">Teether Bracelet</h3>
+                            <span class="new-subtitle">Safe and healthy</span>
+                
+                            <div class="new-prices">
+                                <span class="new-price">IDR 85.000</span>
+                                <span class="new-discount">IDR 155.000</span>
+                            </div>
+                
+                            <a href="details.html" class="button new_button">
+                                <i class="bx bx-cart-alt new-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="new-content swiper-slide">
+                            <div class="new-tag">New</div>
+                            <img src="img/product-8.jpg" alt="text" class="new-img" id="new-img">
+                            <h3 class="new-title">Joy - Burp Cotton</h3>
+                            <span class="new-subtitle">BPA free, high Absorption</span>
+                
+                            <div class="new-prices">
+                                <span class="new-price">IDR 60.000</span>
+                                <span class="new-discount">IDR 115.000</span>
+                            </div>
+                
+                            <a href="details.html" class="button new_button">
+                                <i class="bx bx-cart-alt new-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="new-content swiper-slide">
+                            <div class="new-tag">New</div>
+                            <img src="img/product-9.jpg" alt="text" class="new-img" id="new-img">
+                            <h3 class="new-title">Joy - Towel</h3>
+                            <span class="new-subtitle">BPA free, 100% Cotton</span>
+                
+                            <div class="new-prices">
+                                <span class="new-price">IDR 60.000</span>
+                                <span class="new-discount">IDR 115.000</span>
+                            </div>
+                
+                            <a href="details.html" class="button new_button">
+                                <i class="bx bx-cart-alt new-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps section container">
+            <div class="steps-bg">
+                <h2 class="section_title">How to Order</h2>
+                <div class="steps-container grid">
+
+                    <div class="steps-card">
+                        <div class="steps-card-number">01</div>
+                        <h2 class="steps-card-title">Choose the Products</h2>
+                        <p class="steps-card-description">
+                            We have several awesome products for you
+                        </p>
+                    </div>
+
+                    <div class="steps-card">
+                        <div class="steps-card-number">02</div>
+                        <h2 class="steps-card-title">Add to Cart and Pay</h2>
+                        <p class="steps-card-description">
+                            Like the items? Add them to your cart and choose the payment method
+                        </p>
+                    </div>
+
+                    <div class="steps-card">
+                        <div class="steps-card-number">03</div>
+                        <h2 class="steps-card-title">Get order delivered</h2>
+                        <p class="steps-card-description">
+                            We will process your order as soon as possible after we receive your payment
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter section">
+            <div class="newsletter-container container">
+                <h2 class="section_title">Our Newsletter</h2>
+                <div class="newsletter-description">
+                    Promotion, new products, directly to your inbox
+                </div>
+
+                <form action="send" class="newsletter-form">
+                    <input type="text" placeholder="Enter your email" class="newsletter-input">
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="footer-container container grid">
+
+          <div class="footer-content">
+              <a href="#" class="footer-logo">
+                  <i class="bx bxs-shopping-bags footer-logo-icon"></i>
+                  aegibou
+              </a>
+
+              <p class="footer-description">Enjoy the best Aegi items!</p>
+
+              <ul class="footer-social">
+                <li><a href="#" class="footer-social-link"><i class="bx bxl-facebook"></i></a></li>
+                <li><a href="#" class="footer-social-link"><i class="bx bxl-instagram"></i></a></li>
+                <li><a href="#" class="footer-social-link"><i class="bx bxl-twitter"></i></a></li>
+              </ul>
+          </div>
+
+          <div class="footer-content">
+              <h3 class="footer-title">About</h3>
+
+              <ul class="footer-links">
+                <li><a href="#" class="footer-link">About Us</a></li>
+                <li><a href="#" class="footer-link">Customer Support</a></li>
+                <li><a href="#" class="footer-link">Location</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-content">
+            <h3 class="footer-title">Our Services</h3>
+
+            <ul class="footer-links">
+                <li><a href="#" class="footer-link">Shop</a></li>
+                <li><a href="#" class="footer-link">Discounts</a></li>
+                <li><a href="#" class="footer-link">Shipping</a></li>
+            </ul>
+        </div>
+
+      </div>
+
+      <span class="footer-copy">
+          &#169 Crypticalcoder x AethelDesign. All rights reserved
+      </span>
+
+    </footer>
+
+    <a href="#" class="scrollup" id="scrollup">
+        <i class="bx bx-up-arrow-alt scrollup-icon"></i>
+    </a>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
